@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Static Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
     <style>
         body {
+            background-image: url('https://oopfix.github.io/my_page/itl.cat_human-wallpaper_3093641.png'); /* Replace with your AI-themed background image URL */
+            background-size: cover;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
+        .container {
+            position: relative;
             padding: 20px;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        a {
+            color: #0000EE;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Static Web Page</h1>
-    </header>
-    <main>
-        <p>This is a ddd static web page created using HTML and CSS.
-
-            </p>
-            <a href="https://www.youtube.com/watch?v=MotCwS4MdW4">CHECK THIS LINK OUT</a>
-
-
-    </main>
-    <footer>
-        <p>&copy; 2024 My Static Web Page</p>
-    </footer>
+    <div class="container">
+        <div class="top-left">
+            <img src="https://oopfix.github.io/my_page/IMG_6009.jpg" alt="Example Image" width="100" height="100"> <!-- Replace with your image URL -->
+        </div>
+        <h1>Welcome to My Simple Web Page</h1>
+        <p>My YouTube page <a href="https://www.youtube.com/@brianreed5848">link</a>.</p>
+        <p>Feel free to <a href="mailto:oopfix@gmail.com">email me</a>.</p>
+    </div>
 </body>
 </html>
